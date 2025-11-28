@@ -34,5 +34,3 @@ class Trainer(object):
                 torch.save(self.model, f'unet-{epoch}.pth.tar')
 
         torch.save(self.model, f'Unet-epochs{self.epochs}.pth')
-
-
